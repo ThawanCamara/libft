@@ -4,7 +4,7 @@ RM := rm -rf
 
 CC := cc
 
-FLAGS := -Wall -Werror -Wextra
+CFLAGS := -Wall -Werror -Wextra
 
 SRCS := ft_isalpha.c			\
 			ft_isdigit.c		\
@@ -56,7 +56,7 @@ OBJS := ${SRCS:.c=.o}
 
 BONUS_OBJS := ${BONUS_SRCS:.c=.o}
 
-.c.o := ${CC} ${FLAGS} -c $< -o ${<:.c=.o}
+.c.o := ${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
 
 all: ${NAME}
 
@@ -67,7 +67,7 @@ bonus: ${BONUS_OBJS} libft
 	ar -rc ${NAME} ${BONUS_OBJS}
 
 clean:
-	${RM} ${OBJS}
+	${RM} ${OBJS} ${BONUS_OBJS}
 
 fclean: clean
 	${RM} ${NAME}
