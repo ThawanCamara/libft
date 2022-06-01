@@ -2,19 +2,18 @@
 #include<stdio.h>
 #include<string.h>
 
-int main()
-/* {
-	char haystack[30] = "aaabcabcd";
-	//char needle[10] = "aabc";
-	//size_t max = strlen(s2);
-
-	printf("%s\n", strnstr(haystack, "a", -1) );
-	printf("%s\n", ft_strnstr(haystack, "a", -1));
-	//printf("%d\n", ft_memcmp(s1, s2, n));
-	return 0;
-} */
+static void	setnbr(int num, const char *s, int i)
 {
-	char *s = "jacu";
+	if (num >= 10)
+		setnbr(num / 10, (s + i), i);
+	*(char *) (s + i) = num % 10 + '0';
+}
 
-	ft_putstr_fd(s, 1);
+int main()
+{
+	int n = 4231;
+	char s[30] = "00000000";
+
+	setnbr(n, s, 0);
+	printf("%s\n", s);
 }
