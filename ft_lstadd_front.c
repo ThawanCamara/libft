@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 09:49:31 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 09:55:58 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 09:58:26 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
-	new->next = **lst;
-	**lst = new;
+	new->next = *lst;
+	*lst = new;
 }
