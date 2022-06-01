@@ -45,7 +45,7 @@ BONUS_SRCS := ft_lstnew.c		\
 			ft_lstadd_front.c	\
 			ft_lstsize.c		\
 			ft_lstlast.c		\
-			ft_lstaddback.c		\
+			ft_lstadd_back.c	\
 			ft_lstdelone.c		\
 			ft_lstclear.c		\
 			ft_lstiter.c		\
@@ -63,7 +63,7 @@ all: ${NAME}
 ${NAME}: ${OBJS} libft.h
 	ar -rc ${NAME} ${OBJS}
 
-bonus: ${BONUS_OBJS} libft
+bonus: ${BONUS_OBJS} libft.h
 	ar -rc ${NAME} ${BONUS_OBJS}
 
 clean:

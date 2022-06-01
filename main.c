@@ -2,18 +2,24 @@
 #include<stdio.h>
 #include<string.h>
 
-static void	setnbr(int num, const char *s, int i)
-{
-	if (num >= 10)
-		setnbr(num / 10, (s + i), i);
-	*(char *) (s + i) = num % 10 + '0';
-}
+ int main()
+/* {
+	int n = -1231345235;
 
-int main()
+	char *s = ft_itoa(n);
+	printf("O: %s|\n", s);
+} */
 {
-	int n = 4231;
-	char s[30] = "00000000";
-
-	setnbr(n, s, 0);
-	printf("%s\n", s);
+	//char *s = "      split       this for   me  !       ";
+	char *s = " olol se l  ";
+ 	//printf("Start\n\n");
+	char **result = ft_split(s, ' ');
+	
+	while (*result)
+	{
+		printf("|%s|\n", *result);
+		result++;
+	}
+	
+	return 0;
 }

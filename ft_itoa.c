@@ -12,30 +12,50 @@
 
 #include"libft.h"
 
-/* static int	setnbr(int num, const char *s, size_t i)
+static size_t	count_dozens(size_t num)
 {
-	if (num >= 10)
-		i = setnbr(num / 10, s, i++);
-	*(char *) (s + i) = num % 10 + '0';
-	return (i);
-} */
+	size_t	dozens;
 
+	dozens = 1;
+	while (num >= 10)
+	{
+		num /= 10;
+		dozens++;
+	}
+	return (dozens);
+}
 
-/* char	*ft_itoa(int n)
+static void	setnbr(size_t num, const char *s, size_t sign, size_t dozens)
+{	
+	if (sign == 1)
+		*(char *) s = '-';
+	*(char *) (s + sign + dozens) = 0;
+	while (dozens--)
+	{
+		*(char *) (s + sign + dozens) = num % 10 + '0';
+		num /= 10;
+	}
+}
+
+char	*ft_itoa(int n)
 {
 	size_t	num;
-	size_t	negative;
+	size_t	sign;
+	size_t	dozens;
+	char 	*ret;
 
-	negative = 0;
-	if (n > 0)
+	sign = 0;
+	if (n >= 0)
 		num = (size_t) n;
 	else
 	{
 		num = (size_t) n * -1;
-		negative = 1;
+		sign = 1;
 	}
-	ret = (char *)malloc(( + 1) * sizeof(char));
+	dozens = count_dozens(num);
+	ret = (char *)malloc((sign + dozens + 1) * sizeof(char));
 	if (ret == 0)
 		return (0);
+	setnbr(num, ret, sign, dozens);
 	return (ret);
-} */
+}

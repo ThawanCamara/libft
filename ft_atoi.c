@@ -6,13 +6,13 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 10:29:43 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/05/31 19:47:19 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 08:56:29 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
-/* int	ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	unsigned int	num;
 	int				mult;
@@ -33,4 +33,4 @@
 		str++;
 	}
 	return (num * mult);
-} */
+}
