@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 11:31:43 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/05/31 11:57:52 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 15:04:05 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*ret;
 	size_t	len;
-	
+
 	len = ft_strlen(s1) + ft_strlen(s2);
 	ret = (char *)malloc((len + 1) * sizeof(char));
 	if (ret == 0)

@@ -6,13 +6,13 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 10:19:19 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 10:23:25 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 14:47:48 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
-int		ft_lstsize(t_list *lst)
+int	ft_lstsize(t_list *lst)
 {
 	int	size;
 

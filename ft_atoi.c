@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 10:29:43 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 08:56:29 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 14:44:21 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,13 +16,13 @@ int	ft_atoi(const char *str)
 {
 	unsigned int	num;
 	int				mult;
-	
+
 	num = 0;
 	mult = 1;
 	while (*str == '\t' || *str == '\n' || *str == '\r' || *str == '\v'
 		|| *str == '\f' || *str == ' ')
 	{
-		str++;	
+		str++;
 	}
 	if (*str == '-' || *str == '+')
 		if (*str++ == '-')

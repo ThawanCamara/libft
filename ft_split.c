@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 07:27:36 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 14:41:02 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 15:03:35 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 static size_t	count_words(const char *s, char c)
 {
 	size_t	count;
-	
+
 	count = 0;
 	while (*s)
 	{
@@ -32,11 +32,11 @@ static char	*get_next_word(const char *s, char c)
 
 	len = 0;
 	while (*(s + len) && *(s + len) != c)
-		len++;	
-	return(ft_substr(s, 0, len));
+		len++;
+	return (ft_substr(s, 0, len));
 }
 
-char **ft_split(char const *s, char c)
+char	**ft_split(char const *s, char c)
 {
 	char	**ret;
 	size_t	i;

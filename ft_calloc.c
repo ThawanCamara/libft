@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 10:45:54 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/05/31 11:01:59 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 14:44:44 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	*ft_calloc(size_t count, size_t size)
 	i = 0;
 	while (i < count * size)
 	{
-		*(char *) (ret + i) = '\0';
+		*(char *)(ret + i) = '\0';
 		i++;
 	}
 	return (ret);

@@ -29,10 +29,10 @@ static void	setnbr(size_t num, const char *s, size_t sign, size_t dozens)
 {	
 	if (sign == 1)
 		*(char *) s = '-';
-	*(char *) (s + sign + dozens) = 0;
+	*(char *)(s + sign + dozens) = 0;
 	while (dozens--)
 	{
-		*(char *) (s + sign + dozens) = num % 10 + '0';
+		*(char *)(s + sign + dozens) = num % 10 + '0';
 		num /= 10;
 	}
 }
@@ -42,7 +42,7 @@ char	*ft_itoa(int n)
 	size_t	num;
 	size_t	sign;
 	size_t	dozens;
-	char 	*ret;
+	char	*ret;
 
 	sign = 0;
 	if (n >= 0)

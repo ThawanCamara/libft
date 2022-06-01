@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 14:55:02 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/05/31 15:28:58 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 15:01:25 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	while(*s != 0)
+	while (*s != 0)
 	{
 		write(fd, s, 1);
 		s++;

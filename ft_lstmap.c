@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 12:02:34 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 14:37:26 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 14:47:27 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	t_list	*new_head;
 	t_list	*new_node;
 	void	*temp;
-	
+
 	if (!f)
 		return (0);
 	new_head = 0;

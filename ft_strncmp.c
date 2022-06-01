@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 06:47:56 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/05/31 08:30:23 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 15:05:52 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	while (--n && *s1 == *s2 && *s1 != 0 && *s2 != 0)
 	{
 		s1++;
-		s2++;		
+		s2++;
 	}
-	return((unsigned char)*s1 - (unsigned char)*s2);
+	return ((unsigned char)*s1 - (unsigned char)*s2);
 }

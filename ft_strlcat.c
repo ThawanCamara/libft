@@ -22,15 +22,15 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	if (size < dst_len)
 		return (src_len + size);
 	else
+	{
+		dst += dst_len;
+		size -= dst_len;
+		while (size > 1 && *src != 0)
 		{
-			dst += dst_len;
-			size -= dst_len;
-			while (size > 1 && *src != 0)
-				{
-					*dst++ = *src++;
-					size--;
-				}
-			*dst = 0;
+			*dst++ = *src++;
+			size--;
 		}
+		*dst = 0;
+	}
 	return (src_len + dst_len);
 }

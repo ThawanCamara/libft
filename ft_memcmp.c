@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 07:10:53 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/05/31 08:34:49 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 14:48:19 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	unsigned char *c1;
-	unsigned char *c2;
-	
+	unsigned char	*c1;
+	unsigned char	*c2;
+
 	if (n == 0)
 		return (0);
 	c1 = (unsigned char *) s1;
@@ -29,7 +29,7 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 			c2++;
 		}
 		else
-			break;
+			break ;
 	}
 	return (*c1 - *c2);
 }

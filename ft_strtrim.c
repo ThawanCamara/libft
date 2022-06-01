@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 12:44:11 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 08:51:54 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 15:08:06 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,6 @@ char	*ft_strtrim(char const *s1, char const *set)
 
 	start = 0;
 	end = ft_strlen(s1);
-
 	while (is_trimmable(*(s1 + start), set))
 		start++;
 	while (is_trimmable(*(s1 + end), set))

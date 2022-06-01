@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 11:13:10 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/05/31 11:31:01 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 15:08:17 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		len = o_len;
 	ret = (char *)malloc((len + 1) * sizeof(char));
 	if (ret == 0)
-		return(0);
+		return (0);
 	ft_strlcpy(ret, s, len + 1);
 	return (ret);
 }

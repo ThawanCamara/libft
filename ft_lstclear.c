@@ -6,7 +6,7 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 10:53:38 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 13:57:02 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/01 14:47:13 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*next;
-	
+
 	if (!lst)
 		return ;
 	while (*lst)
