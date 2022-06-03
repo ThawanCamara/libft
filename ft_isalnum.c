@@ -6,11 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 07:35:49 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 14:45:03 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:23:32 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 int	ft_isalnum(int c)
 {

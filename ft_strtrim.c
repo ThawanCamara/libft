@@ -6,11 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 12:44:11 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 15:08:06 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:25:25 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 static size_t	is_trimmable(char const c, char const *set)
 {

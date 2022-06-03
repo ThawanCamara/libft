@@ -6,11 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 11:13:10 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 15:08:17 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:25:27 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

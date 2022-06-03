@@ -6,11 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 11:31:43 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 15:04:05 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:24:49 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

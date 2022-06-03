@@ -6,11 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 10:29:43 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 14:44:21 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:23:19 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {

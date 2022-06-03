@@ -6,12 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 14:53:44 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 14:40:49 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:27:01 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
-#include<unistd.h>
+#include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {

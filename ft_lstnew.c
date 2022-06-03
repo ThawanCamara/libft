@@ -6,11 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 09:35:44 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 09:48:29 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:24:02 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 t_list	*ft_lstnew(void *content)
 {

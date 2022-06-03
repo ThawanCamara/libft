@@ -6,12 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 14:42:08 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/05/31 14:51:36 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:27:06 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
-#include<unistd.h>
+#include "libft.h"
 
 void	ft_putchar_fd(char c, int fd)
 {

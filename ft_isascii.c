@@ -6,11 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 07:34:39 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/05/31 07:39:53 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:23:40 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 int	ft_isascii(int c)
 {

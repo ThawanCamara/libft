@@ -6,11 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 07:27:36 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/06/01 15:03:35 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:24:40 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 static size_t	count_words(const char *s, char c)
 {

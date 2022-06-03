@@ -6,11 +6,11 @@
 /*   By: tde-souz <tde-souz@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 11:02:32 by tde-souz          #+#    #+#             */
-/*   Updated: 2022/05/31 11:11:43 by tde-souz         ###   ########.fr       */
+/*   Updated: 2022/06/02 20:24:44 by tde-souz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 char	*ft_strdup(const char *s1)
 {
