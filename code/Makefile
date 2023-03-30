@@ -56,7 +56,6 @@ OBJS := ${SRCS:.c=.o}
 
 BONUS_OBJS := ${BONUS_SRCS:.c=.o}
 
-
 all: ${NAME}
 
 .c.o: ${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
