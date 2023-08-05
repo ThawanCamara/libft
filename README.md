@@ -24,7 +24,7 @@ To achieve this the student will reproduce functionalities from multiple C libra
 > Contains declarations for character classification functions.
 
 | Function | Description |
-| :---: | :--- | :---: |
+| :---: | :--- |
 |[`ft_isalpha`](code/ft_isalpha.c)| test for alphabetic character |
 |[`ft_isdigit`](code/ft_isdigit.c)| test for digit. Not locale-specific |
 |[`ft_isalnum`](code/ft_isalnum.c)| test for alphanumeric character |
